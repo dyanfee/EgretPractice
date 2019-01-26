@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="700,700">
+  <displayList>
+    <image id="n0_emt3" name="n0" src="emt31l" fileName="map/MineSweeper/board.png" xy="0,0"/>
+  </displayList>
+</component>

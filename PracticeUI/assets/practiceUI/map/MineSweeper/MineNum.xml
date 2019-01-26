@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="35,35">
+  <displayList>
+    <text id="n0_sr92" name="num" xy="3,0" size="27,35" aspect="true" font="ui://bs15qb72emt319" fontSize="3" align="center" vAlign="middle" autoSize="none" text="9"/>
+  </displayList>
+</component>

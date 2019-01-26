@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,720">
+  <displayList>
+    <graph id="n0_mem5" name="n0" xy="35,35" size="650,650" touchable="false" type="rect" lineSize="0" corner="20"/>
+    <text id="n1_9brh" name="n1" xy="141,872" size="437,56" font="Microsoft YaHei" fontSize="40" color="#cbf7f7" bold="true" text="Click the diffent grid!"/>
+    <text id="n2_9brh" name="n2" xy="73,-240" size="574,90" font="Microsoft YaHei" fontSize="65" color="#c47a7a" bold="true" text="Fucking Different"/>
+    <text id="n3_9brh" name="score" xy="258,-37" size="32,49" font="ui://bs15qb72mem5h" fontSize="12" text="0">
+      <relation target="n4_9brh" sidePair="left-right,bottom-bottom"/>
+    </text>
+    <image id="n4_9brh" name="n4" src="mem5j" fileName="score(1).png" xy="52,-49" size="199,57" aspect="true"/>
+    <image id="n5_9brh" name="n5" src="mem5l" fileName="time.png" xy="416,-49" size="176,57" aspect="true"/>
+    <text id="n6_9brh" name="time" xy="601,-37" size="60,49" font="ui://bs15qb72mem5h" fontSize="12" text="60">
+      <relation target="n5_9brh" sidePair="left-right,bottom-bottom"/>
+    </text>
+    <component id="n7_9brh" name="re" src="mem5n" fileName="re.xml" xy="321,733"/>
+  </displayList>
+</component>

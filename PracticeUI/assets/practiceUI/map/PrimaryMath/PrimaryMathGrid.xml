@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,135">
+  <controller name="c1" pages="0,,1,,2,,3," selected="3"/>
+  <displayList>
+    <image id="n0_9brh" name="n0" src="nzl23" fileName="assets/grid.png" xy="0,0" size="120,135" aspect="true"/>
+    <image id="n5_9brh" name="n5" src="9brh10" fileName="multiple.png" xy="19,13" size="80,82" aspect="true">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <image id="n6_9brh" name="n6" src="9brhz" fileName="minus.png" xy="19,13" size="80,82" aspect="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n7_9brh" name="n7" src="9brh11" fileName="plus.png" xy="19,13" size="80,82" aspect="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n8_9brh" name="n8" src="9brh12" fileName="divisor.png" xy="19,13" size="80,82" aspect="true">
+      <gearDisplay controller="c1" pages="3"/>
+    </image>
+  </displayList>
+</component>

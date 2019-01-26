@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100">
+  <displayList>
+    <graph id="n2_nzl2" name="n2" xy="0,0" size="100,100" type="rect" lineSize="0" fillColor="#ffff0000" corner="20"/>
+  </displayList>
+</component>

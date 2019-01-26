@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="35,35">
+  <displayList>
+    <graph id="n1_sr92" name="boom" xy="0,0" size="35,35" visible="false" type="rect" lineSize="0" fillColor="#ffff0000"/>
+    <image id="n0_emt3" name="n0" src="emt31r" fileName="map/MineSweeper/bomb.png" xy="2,1" size="32,34" aspect="true"/>
+  </displayList>
+</component>

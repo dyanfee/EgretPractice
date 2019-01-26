@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="bs15qb72" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="nzl20" name="GameMain.xml" path="/" exported="true"/>
+    <image id="nzl21" name="role1.png" path="/assets/"/>
+    <image id="nzl22" name="bomb.png" path="/assets/"/>
+    <image id="nzl23" name="grid.png" path="/assets/"/>
+    <component id="nzl24" name="SwitchColor.xml" path="/map/SwitchColor/" exported="true"/>
+    <image id="mem57" name="9.png" path="/font/"/>
+    <image id="mem58" name="0.png" path="/font/"/>
+    <image id="mem59" name="1.png" path="/font/"/>
+    <image id="mem5a" name="2.png" path="/font/"/>
+    <image id="mem5b" name="3.png" path="/font/"/>
+    <image id="mem5c" name="4.png" path="/font/"/>
+    <image id="mem5d" name="5.png" path="/font/"/>
+    <image id="mem5e" name="6.png" path="/font/"/>
+    <image id="mem5f" name="7.png" path="/font/"/>
+    <image id="mem5g" name="8.png" path="/font/"/>
+    <font id="mem5h" name="ScoreFont.fnt" path="/font/" exported="true"/>
+    <image id="mem5j" name="score(1).png" path="/assets/"/>
+    <image id="mem5k" name="bg.png" path="/assets/"/>
+    <image id="mem5l" name="time.png" path="/assets/"/>
+    <image id="mem5m" name="re.png" path="/assets/"/>
+    <component id="mem5n" name="re.xml" path="/assets/"/>
+    <component id="9brho" name="Level.xml" path="/"/>
+    <image id="9brhq" name="start.png" path="/assets/"/>
+    <image id="9brhr" name="start(1).png" path="/assets/"/>
+    <component id="9brhs" name="Start.xml" path="/assets/"/>
+    <image id="9brht" name="start1.png" path="/assets/"/>
+    <image id="9brhu" name="start2.png" path="/assets/"/>
+    <component id="9brhv" name="LevelGrid.xml" path="/"/>
+    <component id="9brhx" name="Switchdirection.xml" path="/map/DiffDirection/" exported="true"/>
+    <component id="9brhy" name="PrimaryMath.xml" path="/map/PrimaryMath/" exported="true"/>
+    <image id="9brhz" name="minus.png" path="/"/>
+    <image id="9brh10" name="multiple.png" path="/"/>
+    <image id="9brh11" name="plus.png" path="/"/>
+    <image id="9brh12" name="divisor.png" path="/"/>
+    <component id="9brh13" name="PrimaryMathGrid.xml" path="/map/PrimaryMath/" exported="true"/>
+    <image id="emt315" name="MineNum.png" path="/map/MineSweeper/"/>
+    <image id="emt317" name="MineGrid.png" path="/map/MineSweeper/"/>
+    <component id="emt318" name="MineSweeper.xml" path="/map/MineSweeper/" exported="true"/>
+    <font id="emt319" name="MineFont.fnt" path="/map/MineSweeper/" exported="true"/>
+    <image id="emt31a" name="t3.png" path="/assets/"/>
+    <image id="emt31b" name="t4.png" path="/assets/"/>
+    <image id="emt31c" name="t5.png" path="/assets/"/>
+    <image id="emt31d" name="t6.png" path="/assets/"/>
+    <image id="emt31e" name="t7.png" path="/assets/"/>
+    <image id="emt31f" name="t8.png" path="/assets/"/>
+    <image id="emt31g" name="t9.png" path="/assets/"/>
+    <image id="emt31h" name="t0.png" path="/assets/"/>
+    <image id="emt31i" name="t1.png" path="/assets/"/>
+    <image id="emt31j" name="t2.png" path="/assets/"/>
+    <image id="emt31l" name="board.png" path="/map/MineSweeper/"/>
+    <component id="emt31m" name="MineSweeperGrid.xml" path="/map/MineSweeper/" exported="true"/>
+    <component id="emt31n" name="SwitchColorGrid.xml" path="/map/SwitchColor/" exported="true"/>
+    <image id="emt31o" name="Mine.png" path="/map/MineSweeper/"/>
+    <image id="emt31p" name="BMine.png" path="/map/MineSweeper/"/>
+    <component id="emt31q" name="Board.xml" path="/map/MineSweeper/"/>
+    <image id="emt31r" name="bomb.png" path="/map/MineSweeper/"/>
+    <component id="emt31s" name="Mine.xml" path="/map/MineSweeper/" exported="true"/>
+    <component id="sr921t" name="MineNum.xml" path="/map/MineSweeper/" exported="true"/>
+    <component id="wdce1u" name="SmileDisappear.xml" path="/map/SmileDisappear/" exported="true"/>
+    <component id="oi081v" name="Trailing.xml" path="/map/Trailing/" exported="true"/>
+    <image id="oi081x" name="1.png" path="/map/Trailing/" exported="true"/>
+    <image id="oi081y" name="effect.png" path="/map/Trailing/" exported="true"/>
+    <image id="svvc1z" name="pic.png" path="/map/Trailing/" exported="true" scale="9grid" scale9grid="3,3,3,4"/>
+  </resources>
+  <publish name="practiceUI" path="E:\VsCode\EgretProject\PracticeProject\resource\assets"/>
+</packageDescription>

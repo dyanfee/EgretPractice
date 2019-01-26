@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <image id="n0_9brh" name="n0" src="mem5k" fileName="bg.png" xy="0,0"/>
+    <component id="n13_9brh" name="n13" src="9brhv" fileName="LevelGrid.xml" xy="134,259" size="110,123" aspect="true"/>
+    <image id="n15_9brh" name="n15" src="mem59" fileName="font/1.png" xy="170,281" size="38,61" aspect="true">
+      <relation target="n13_9brh" sidePair="left-left,top-top"/>
+    </image>
+    <component id="n14_9brh" name="n14" src="9brhv" fileName="LevelGrid.xml" xy="215,476" size="110,123" aspect="true"/>
+    <image id="n16_9brh" name="n16" src="mem5a" fileName="font/2.png" xy="251,497" size="38,61" aspect="true">
+      <relation target="n14_9brh" sidePair="left-left,top-top"/>
+    </image>
+  </displayList>
+</component>

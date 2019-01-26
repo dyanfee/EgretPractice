@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <graph id="n28_sr92" name="n28" xy="0,0" size="720,1280" type="rect" fillColor="#ffcccccc"/>
+    <text id="n1_9brh" name="n1" xy="141,1212" size="436,56" font="Microsoft YaHei" fontSize="40" color="#cbf7f7" bold="true" text="Sweep All The Mines!"/>
+    <text id="n2_9brh" name="n2" xy="135,91" size="450,90" font="Microsoft YaHei" fontSize="65" color="#c47a7a" bold="true" text="MineSweeper"/>
+    <text id="n3_9brh" name="mine" xy="250,280" size="32,49" font="ui://bs15qb72mem5h" fontSize="12" text="0">
+      <relation target="n4_9brh" sidePair="left-right,bottom-bottom"/>
+    </text>
+    <image id="n4_9brh" name="n4" src="emt315" fileName="map/MineSweeper/MineNum.png" xy="44,268" size="199,57" aspect="true"/>
+    <image id="n5_9brh" name="n5" src="mem5l" fileName="assets/time.png" xy="408,268" size="176,57" aspect="true"/>
+    <text id="n6_9brh" name="time" xy="593,280" size="60,49" font="ui://bs15qb72mem5h" fontSize="12" text="60">
+      <relation target="n5_9brh" sidePair="left-right,bottom-bottom"/>
+    </text>
+    <component id="n7_9brh" name="re" src="mem5n" fileName="assets/re.xml" xy="313,1085"/>
+    <graph id="n16_emt3" name="n16" xy="0,340" size="720,720" hideByEditor="true" aspect="true" visible="false" type="rect" lineSize="0"/>
+    <component id="n26_emt3" name="board" src="emt31q" fileName="map/MineSweeper/Board.xml" xy="10,350"/>
+  </displayList>
+</component>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <text id="n1_9brh" name="n1" xy="80,1204" size="535,56" font="Microsoft YaHei" fontSize="40" color="#cbf7f7" bold="true" text="Click the correct operator!"/>
+    <text id="n2_9brh" name="n2" xy="3,91" size="705,90" font="Microsoft YaHei" fontSize="65" color="#c47a7a" bold="true" text="Fucking Mathematics"/>
+    <text id="n3_9brh" name="score" xy="250,295" size="32,49" font="ui://bs15qb72mem5h" fontSize="12" text="0">
+      <relation target="n4_9brh" sidePair="left-right,bottom-bottom"/>
+    </text>
+    <image id="n4_9brh" name="n4" src="mem5j" fileName="assets/score(1).png" xy="44,283" size="199,57" aspect="true"/>
+    <image id="n5_9brh" name="n5" src="mem5l" fileName="assets/time.png" xy="408,283" size="176,57" aspect="true"/>
+    <text id="n6_9brh" name="time" xy="593,295" size="60,49" font="ui://bs15qb72mem5h" fontSize="12" text="60">
+      <relation target="n5_9brh" sidePair="left-right,bottom-bottom"/>
+    </text>
+    <component id="n7_9brh" name="re" src="mem5n" fileName="assets/re.xml" xy="313,1065"/>
+    <graph id="n8_9brh" name="n8" xy="32,432" size="658,105" touchable="false" type="rect" lineSize="0" corner="20"/>
+    <text id="n9_9brh" name="input1" xy="114,448" size="113,82" group="n15_9brh" font="Microsoft YaHei" fontSize="59" bold="true" text="123">
+      <relation target="n14_9brh" sidePair="right-left"/>
+    </text>
+    <text id="n10_9brh" name="input2" xy="319,447" size="113,82" group="n15_9brh" font="Microsoft YaHei" fontSize="59" bold="true" text="132">
+      <relation target="n14_9brh" sidePair="left-right"/>
+    </text>
+    <text id="n11_9brh" name="n11" xy="444,447" size="44,82" group="n15_9brh" fontSize="67" bold="true" text="=">
+      <relation target="n10_9brh" sidePair="left-right"/>
+    </text>
+    <text id="n12_9brh" name="answer" xy="497,448" size="140,82" group="n15_9brh" font="Microsoft YaHei" fontSize="59" bold="true" text="-123">
+      <relation target="n11_9brh" sidePair="left-right"/>
+    </text>
+    <graph id="n14_9brh" name="n14" xy="241,450" size="66,66" group="n15_9brh" aspect="true" type="eclipse" lineSize="2" fillColor="#00383838"/>
+    <group id="n15_9brh" name="n15" xy="114,447" size="523,83" advanced="true">
+      <relation target="n8_9brh" sidePair="center-center"/>
+    </group>
+  </displayList>
+</component>
