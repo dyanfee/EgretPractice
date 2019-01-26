@@ -1,0 +1,40 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/game/game.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/assetsmanager/assetsmanager.js",
+		"libs/modules/socket/socket.js",
+		"libs/modules/promise/promise.js",
+		"libs/modules/dragonBones/dragonBones.js",
+		"libs/rawinflate/rawinflate.js",
+		"libs/fairygui/fairygui.js",
+		"libs/zlib/zlib.js"
+	],
+	"game": [
+		"bin-debug/common/Mycomponent.js",
+		"bin-debug/common/FairyWindow.js",
+		"bin-debug/MineSweeper/MineSweeperModel.js",
+		"bin-debug/common/ComPools.js",
+		"bin-debug/Data.js",
+		"bin-debug/common/Main.js",
+		"bin-debug/MainPanel.js",
+		"bin-debug/common/MyEvent.js",
+		"bin-debug/MineSweeper/MineEnum.js",
+		"bin-debug/MineSweeper/MineSweeper.js",
+		"bin-debug/MineSweeper/MineSweeperGrid.js",
+		"bin-debug/GameMgr.js",
+		"bin-debug/PrimaryMath/Map.js",
+		"bin-debug/PrimaryMath/PrimaryMathGrid.js",
+		"bin-debug/SwitchColor/Grid.js",
+		"bin-debug/SwitchColor/Map.js",
+		"bin-debug/Trailing/asd.js",
+		"bin-debug/Trailing/BezierSmoothPath.js",
+		"bin-debug/Trailing/SwordTrail.js",
+		"bin-debug/Trailing/Trailing.js",
+		"bin-debug/Trailing/Trailing2.js",
+		"bin-debug/Trailing/TrailingViaPic.js",
+		"bin-debug/Trailing/TrailRenderer.js"
+	]
+}
