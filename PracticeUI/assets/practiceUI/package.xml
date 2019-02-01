@@ -64,6 +64,14 @@
     <image id="oi081x" name="1.png" path="/map/Trailing/" exported="true"/>
     <image id="oi081y" name="effect.png" path="/map/Trailing/" exported="true"/>
     <image id="svvc1z" name="pic.png" path="/map/Trailing/" exported="true" scale="9grid" scale9grid="3,3,3,4"/>
+    <image id="n8lj20" name="translucenceGrid.png" path="/map/Astar/"/>
+    <image id="n8lj21" name="whiteGrid.png" path="/map/Astar/"/>
+    <image id="n8lj22" name="greebGrid.png" path="/map/Astar/"/>
+    <image id="n8lj23" name="greengrid.png" path="/map/Astar/"/>
+    <image id="n8lj24" name="redGrid.png" path="/map/Astar/"/>
+    <image id="n8lj25" name="redgrid1.png" path="/map/Astar/"/>
+    <component id="n8lj26" name="AStar.xml" path="/map/Astar/" exported="true"/>
+    <component id="n8lj27" name="translucenceGrid.xml" path="/map/Astar/" exported="true"/>
   </resources>
   <publish name="practiceUI" path="E:\VsCode\EgretProject\PracticeProject\resource\assets"/>
 </packageDescription>

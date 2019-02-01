@@ -45,4 +45,3 @@ var MineSweeperGrid = (function (_super) {
     return MineSweeperGrid;
 }(MyComponent));
 __reflect(MineSweeperGrid.prototype, "MineSweeperGrid");
-//# sourceMappingURL=MineSweeperGrid.js.map

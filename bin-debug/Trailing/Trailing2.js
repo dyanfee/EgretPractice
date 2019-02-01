@@ -166,4 +166,3 @@ var Trailing2 = (function (_super) {
     return Trailing2;
 }(MyComponent));
 __reflect(Trailing2.prototype, "Trailing2");
-//# sourceMappingURL=Trailing2.js.map

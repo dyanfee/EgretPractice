@@ -16,7 +16,8 @@ class MainPanel extends FairyWindow {
 		// this.registComponent("Trailing", Trailing);
 		// this.registComponent("Trailing", Trailing2);
 		this.registComponent("Trailing", Trailing3);
-
+		this.registComponent("AStar", PracticePro.SeachMap);
+		this.registComponent("translucenceGrid", PracticePro.Grid);
 
 	}
 	initListen() {
@@ -27,7 +28,7 @@ class MainPanel extends FairyWindow {
 	}
 	initView() {
 		super.initView();
-		this._map = this.createObject("Trailing") as Trailing3;
+		this._map = this.createObject("AStar") as PracticePro.SeachMap;
 		this._ui.addChild(this._map);
 		this.gameStart();
 	}

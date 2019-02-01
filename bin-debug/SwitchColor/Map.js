@@ -138,4 +138,3 @@ var Map1 = (function (_super) {
     return Map1;
 }(MyComponent));
 __reflect(Map1.prototype, "Map1");
-//# sourceMappingURL=Map.js.map

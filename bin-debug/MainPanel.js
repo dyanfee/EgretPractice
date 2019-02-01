@@ -24,6 +24,8 @@ var MainPanel = (function (_super) {
         // this.registComponent("Trailing", Trailing);
         // this.registComponent("Trailing", Trailing2);
         this.registComponent("Trailing", Trailing3);
+        this.registComponent("AStar", PracticePro.SeachMap);
+        this.registComponent("translucenceGrid", PracticePro.Grid);
     };
     MainPanel.prototype.initListen = function () {
     };
@@ -31,7 +33,7 @@ var MainPanel = (function (_super) {
     };
     MainPanel.prototype.initView = function () {
         _super.prototype.initView.call(this);
-        this._map = this.createObject("Trailing");
+        this._map = this.createObject("AStar");
         this._ui.addChild(this._map);
         this.gameStart();
     };
@@ -43,4 +45,3 @@ var MainPanel = (function (_super) {
     return MainPanel;
 }(FairyWindow));
 __reflect(MainPanel.prototype, "MainPanel");
-//# sourceMappingURL=MainPanel.js.map

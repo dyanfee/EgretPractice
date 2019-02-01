@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n0_n8lj" name="re" src="mem5n" fileName="assets/re.xml" xy="566,116" size="82,72" aspect="true"/>
+    <component id="n1_n8lj" name="start" src="9brhs" fileName="assets/Start.xml" xy="73,113" size="141,75" aspect="true"/>
+  </displayList>
+</component>

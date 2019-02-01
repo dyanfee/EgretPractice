@@ -164,4 +164,3 @@ var Trailing3 = (function (_super) {
     return Trailing3;
 }(MyComponent));
 __reflect(Trailing3.prototype, "Trailing3");
-//# sourceMappingURL=TrailingViaPic.js.map

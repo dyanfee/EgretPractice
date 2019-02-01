@@ -48,4 +48,3 @@ var GameMgr = (function () {
     return GameMgr;
 }());
 __reflect(GameMgr.prototype, "GameMgr");
-//# sourceMappingURL=GameMgr.js.map

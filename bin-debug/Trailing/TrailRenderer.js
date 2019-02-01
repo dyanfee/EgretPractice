@@ -184,4 +184,3 @@ var TrailRenderer = (function (_super) {
     return TrailRenderer;
 }(egret.Sprite));
 __reflect(TrailRenderer.prototype, "TrailRenderer");
-//# sourceMappingURL=TrailRenderer.js.map

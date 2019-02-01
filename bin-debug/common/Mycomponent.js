@@ -24,4 +24,3 @@ var MyComponent = (function (_super) {
     return MyComponent;
 }(fairygui.GComponent));
 __reflect(MyComponent.prototype, "MyComponent");
-//# sourceMappingURL=Mycomponent.js.map

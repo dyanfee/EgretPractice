@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="720,1280" designImageLayer="1">
   <displayList>
-    <image id="n9_mem5" name="n9" src="mem5k" fileName="assets/bg.png" xy="0,0"/>
+    <graph id="n13_n8lj" name="n13" xy="0,0" size="720,1280" alpha="0.47" type="rect" lineSize="0" fillColor="#ff655d6e"/>
   </displayList>
 </component>
