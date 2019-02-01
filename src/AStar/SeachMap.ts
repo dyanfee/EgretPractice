@@ -28,6 +28,7 @@ module PracticePro {
 			}
 			setTimeout(() => {
 				this.createMap();
+				AStarModel.instance.loadMap(this);
 			}, 300);
 		}
 		private addListen() {

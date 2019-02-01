@@ -57,6 +57,7 @@ var PracticePro;
             this._startNode = null;
             this._endNode = null;
             this._path = [];
+            this.init();
         };
         // 初始化节点
         AStarModel.prototype.init = function () {
@@ -100,7 +101,7 @@ var PracticePro;
                         // 	!this._nodes[target.row][node.col])
                         // 	continue;
                         // this._map.gridList[node.row][node.col].control = 6;
-                        // this._map.gridList[i][j].control = 5;
+                        this._map.gridList[i][j].control = 5;
                         var cost = this._straightCost;
                         // 如果允许斜行 花费变化
                         if (!(target.row == node.row || target.col == node.col))

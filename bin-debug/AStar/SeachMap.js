@@ -40,6 +40,7 @@ var PracticePro;
             }
             setTimeout(function () {
                 _this.createMap();
+                PracticePro.AStarModel.instance.loadMap(_this);
             }, 300);
         };
         SeachMap.prototype.addListen = function () {
