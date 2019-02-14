@@ -50,3 +50,4 @@ var ComPools = (function () {
     return ComPools;
 }());
 __reflect(ComPools.prototype, "ComPools");
+//# sourceMappingURL=ComPools.js.map

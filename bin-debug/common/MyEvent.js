@@ -65,3 +65,4 @@ var MyEvent = (function () {
     return MyEvent;
 }());
 __reflect(MyEvent.prototype, "MyEvent");
+//# sourceMappingURL=MyEvent.js.map

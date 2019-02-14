@@ -7,3 +7,4 @@ var SwordTrail = (function () {
     return SwordTrail;
 }());
 __reflect(SwordTrail.prototype, "SwordTrail");
+//# sourceMappingURL=SwordTrail.js.map

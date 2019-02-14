@@ -16,3 +16,4 @@ var PracticePro;
     PracticePro.Data = Data;
     __reflect(Data.prototype, "PracticePro.Data");
 })(PracticePro || (PracticePro = {}));
+//# sourceMappingURL=AStarData.js.map

@@ -10,3 +10,4 @@ var MineEnum = (function () {
     return MineEnum;
 }());
 __reflect(MineEnum.prototype, "MineEnum");
+//# sourceMappingURL=MineEnum.js.map

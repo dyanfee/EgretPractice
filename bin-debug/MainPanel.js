@@ -45,3 +45,4 @@ var MainPanel = (function (_super) {
     return MainPanel;
 }(FairyWindow));
 __reflect(MainPanel.prototype, "MainPanel");
+//# sourceMappingURL=MainPanel.js.map

@@ -65,3 +65,4 @@ var FairyWindow = (function (_super) {
     return FairyWindow;
 }(MyComponent));
 __reflect(FairyWindow.prototype, "FairyWindow");
+//# sourceMappingURL=FairyWindow.js.map

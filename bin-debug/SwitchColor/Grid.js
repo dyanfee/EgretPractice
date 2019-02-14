@@ -39,3 +39,4 @@ var SwitchColorGrid = (function (_super) {
     return SwitchColorGrid;
 }(MyComponent));
 __reflect(SwitchColorGrid.prototype, "SwitchColorGrid");
+//# sourceMappingURL=Grid.js.map

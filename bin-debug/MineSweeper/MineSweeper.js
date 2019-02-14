@@ -150,3 +150,4 @@ var MineSweeper = (function (_super) {
     return MineSweeper;
 }(MyComponent));
 __reflect(MineSweeper.prototype, "MineSweeper");
+//# sourceMappingURL=MineSweeper.js.map

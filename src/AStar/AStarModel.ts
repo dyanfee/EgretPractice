@@ -175,24 +175,16 @@ module PracticePro {
 		private isOpen(node) {
 			let len = this._open.length;
 
-			// TODO:优化查找数组中元素方案
-			for (let i = 0; i < len; i++) {
-				if (this._open[i] == node) {
-					return true;
-				}
-			}
+			// 优化查找数组中元素方案
+			if (this._open.indexOf(node) > -1) return true;
 			return false;
 		}
 
 		private isClose(node) {
 			let len = this._close.length;
 
-			// TODO:优化查找数组中元素方案
-			for (let i = 0; i < len; i++) {
-				if (this._close[i] == node) {
-					return true;
-				}
-			}
+			// 优化查找数组中元素方案
+			if (this._close.indexOf(node) > -1) return true;
 			return false;
 		}
 

@@ -47,3 +47,4 @@ var PrimaryMathGrid = (function (_super) {
     return PrimaryMathGrid;
 }(MyComponent));
 __reflect(PrimaryMathGrid.prototype, "PrimaryMathGrid");
+//# sourceMappingURL=PrimaryMathGrid.js.map
