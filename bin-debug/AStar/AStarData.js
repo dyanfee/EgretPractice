@@ -1,8 +1,8 @@
 var __reflect = (this && this.__reflect) || function (p, c, t) {
     p.__class__ = c, t ? t.push(c) : t = [c], p.__types__ = p.__types__ ? t.concat(p.__types__) : t;
 };
-var PracticePro;
-(function (PracticePro) {
+var AstarPra;
+(function (AstarPra) {
     var Data = (function () {
         function Data() {
         }
@@ -13,7 +13,7 @@ var PracticePro;
         Data.TOUCH_GRID = "touch_grid";
         return Data;
     }());
-    PracticePro.Data = Data;
-    __reflect(Data.prototype, "PracticePro.Data");
-})(PracticePro || (PracticePro = {}));
+    AstarPra.Data = Data;
+    __reflect(Data.prototype, "AstarPra.Data");
+})(AstarPra || (AstarPra = {}));
 //# sourceMappingURL=AStarData.js.map

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <text id="n2_o9j3" name="n2" xy="71,80" size="577,97" font="Microsoft YaHei" fontSize="70" color="#ffffff" bold="true" text="VirtualListDemo"/>
+    <graph id="n4_o9j3" name="n4" xy="76,297" size="566,733" type="rect" lineSize="14" lineColor="#ffb56b6b"/>
+    <list id="n3_o9j3" name="list" xy="110,316" size="500,686" overflow="scroll" lineGap="9" defaultItem="ui://bs15qb72o9j32t">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

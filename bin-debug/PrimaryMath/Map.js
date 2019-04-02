@@ -16,7 +16,7 @@ var Map2 = (function (_super) {
         _this._maxBits = 10;
         return _this;
     }
-    Map2.prototype.onload = function () {
+    Map2.prototype.myload = function () {
         this._first = this.getChild("input1").asTextField;
         this._second = this.getChild("input2").asTextField;
         this._result = this.getChild("answer").asTextField;

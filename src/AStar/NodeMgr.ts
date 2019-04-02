@@ -1,4 +1,4 @@
-module PracticePro {
+module AstarPra {
 	export class NodeMgr {
 		public constructor() {
 		}

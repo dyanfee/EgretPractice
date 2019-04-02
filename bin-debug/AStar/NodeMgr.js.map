@@ -1,1 +1,1 @@
-{"version":3,"file":"NodeMgr.js","sourceRoot":"","sources":["../../src/AStar/NodeMgr.ts"],"names":[],"mappings":";;;AAAA,IAAO,WAAW,CAMjB;AAND,WAAO,WAAW;IACjB;QACC;QACA,CAAC;QAEF,cAAC;IAAD,CAAC,AAJD,IAIC;IAJY,mBAAO,UAInB,CAAA;IAJY,UAAA,OAAO,kCAInB,CAAA;AACF,CAAC,EANM,WAAW,KAAX,WAAW,QAMjB"}
+{"version":3,"file":"NodeMgr.js","sourceRoot":"","sources":["../../src/AStar/NodeMgr.ts"],"names":[],"mappings":";;;AAAA,IAAO,QAAQ,CAMd;AAND,WAAO,QAAQ;IACd;QACC;QACA,CAAC;QAEF,cAAC;IAAD,CAAC,AAJD,IAIC;IAJY,gBAAO,UAInB,CAAA;IAJY,UAAA,OAAO,+BAInB,CAAA;AACF,CAAC,EANM,QAAQ,KAAR,QAAQ,QAMd"}

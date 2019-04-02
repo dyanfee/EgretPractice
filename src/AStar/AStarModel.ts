@@ -1,4 +1,4 @@
-module PracticePro {
+module AstarPra {
 	/**
 	 * A* 寻路
 	 */

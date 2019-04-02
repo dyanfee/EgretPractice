@@ -1,4 +1,4 @@
-module PracticePro {
+module AstarPra {
 	export class Node {
 		public constructor(x: number, y: number) {
 			this.row = x;

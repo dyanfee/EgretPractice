@@ -1,11 +1,11 @@
-module PracticePro {
+module AstarPra {
 	export class SeachMap extends MyComponent {
 		public constructor() {
 			super();
 		}
 		private _re: fairygui.GButton;
 		private _start: fairygui.GButton;
-		onload() {
+		myload() {
 			this._re = this.getChild("re").asButton;
 			this._start = this.getChild("start").asButton;
 			this.initUi();

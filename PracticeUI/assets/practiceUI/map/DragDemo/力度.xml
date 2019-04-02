@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="205,20" mask="n40_s3tx">
+  <displayList>
+    <image id="n41_qkt7" name="n41" src="f3vn2b" fileName="动画/方向底.png" xy="-6,-1"/>
+    <image id="n39_s3tx" name="n39" src="f3vn2d" fileName="动画/方向力度.png" xy="0,0" locked="true"/>
+    <graph id="n40_s3tx" name="n40" xy="-3,-4" pivot="1,0.5" size="213,31" type="rect" lineSize="0"/>
+  </displayList>
+  <transition name="t0" autoPlay="true"/>
+</component>

@@ -10,7 +10,7 @@ class Map2 extends MyComponent {
 	private _first: fairygui.GTextField;
 	private _second: fairygui.GTextField;
 	private _result: fairygui.GTextField;
-	onload() {
+	myload() {
 		this._first = this.getChild("input1").asTextField;
 		this._second = this.getChild("input2").asTextField;
 		this._result = this.getChild("answer").asTextField;

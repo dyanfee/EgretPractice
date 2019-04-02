@@ -1,45 +1,48 @@
 {
-	"groups": [
+	"groups":[{
+			"keys":"practiceUI_fui,practiceUI_atlas0,firework_png,rock_png,star_png,sun_json,fire_json,virtualListDemoData_json",
+			"name":"preload"
+		}],
+	"resources":[
 		{
-			"keys": "practiceUI_fui,practiceUI_atlas0,firework_png,rock_png,star_png,sun_json,fire_json",
-			"name": "preload"
-		}
-	],
-	"resources": [
-		{
-			"name": "practiceUI_fui",
-			"type": "bin",
-			"url": "assets/practiceUI.fui"
+			"name":"practiceUI_fui",
+			"type":"bin",
+			"url":"assets/practiceUI.fui"
 		},
 		{
-			"name": "practiceUI_atlas0",
-			"type": "image",
-			"url": "assets/practiceUI_atlas0.png"
+			"name":"practiceUI_atlas0",
+			"type":"image",
+			"url":"assets/practiceUI_atlas0.png"
 		},
 		{
-			"name": "firework_png",
-			"type": "image",
-			"url": "assets/particle/firework.png"
+			"name":"firework_png",
+			"type":"image",
+			"url":"assets/particle/firework.png"
 		},
 		{
-			"name": "rock_png",
-			"type": "image",
-			"url": "assets/particle/rock.png"
+			"name":"rock_png",
+			"type":"image",
+			"url":"assets/particle/rock.png"
 		},
 		{
-			"name": "star_png",
-			"type": "image",
-			"url": "assets/particle/star.png"
+			"name":"star_png",
+			"type":"image",
+			"url":"assets/particle/star.png"
 		},
 		{
-			"name": "sun_json",
-			"type": "json",
-			"url": "assets/particle/sun.json"
+			"name":"sun_json",
+			"type":"json",
+			"url":"assets/particle/sun.json"
 		},
 		{
-			"name": "fire_json",
-			"type": "json",
-			"url": "assets/particle/fire.json"
+			"name":"fire_json",
+			"type":"json",
+			"url":"assets/particle/fire.json"
+		},
+		{
+			"name":"virtualListDemoData_json",
+			"type":"json",
+			"url":"config/virtualListDemoData.json"
 		}
 	]
 }

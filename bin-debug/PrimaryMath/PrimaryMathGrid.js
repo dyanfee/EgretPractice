@@ -13,7 +13,7 @@ var PrimaryMathGrid = (function (_super) {
     function PrimaryMathGrid() {
         return _super.call(this) || this;
     }
-    PrimaryMathGrid.prototype.onload = function () {
+    PrimaryMathGrid.prototype.myload = function () {
         this._control = this.getController("c1");
     };
     PrimaryMathGrid.prototype.initGrid = function (num) {

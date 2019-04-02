@@ -15,11 +15,17 @@ var MyComponent = (function (_super) {
     }
     MyComponent.prototype.constructFromResource = function () {
         _super.prototype.constructFromResource.call(this);
-        this.onload();
+        this.myload();
     };
-    MyComponent.prototype.onload = function () { };
+    MyComponent.prototype.myload = function () { };
     MyComponent.prototype.createObject = function (resName) {
         return fairygui.UIPackage.createObject(Data.pkgName, resName);
+    };
+    /**
+ * 注册UI与类
+ */
+    MyComponent.prototype.registComponent = function (p_packName, p_className, p_class) {
+        fairygui.UIObjectFactory.setPackageItemExtension(fairygui.UIPackage.getItemURL(p_packName, p_className), p_class);
     };
     return MyComponent;
 }(fairygui.GComponent));

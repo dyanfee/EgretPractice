@@ -15,7 +15,7 @@
 	"game": [
 		"bin-debug/common/Mycomponent.js",
 		"bin-debug/common/FairyWindow.js",
-		"bin-debug/MineSweeper/MineEnum.js",
+		"bin-debug/DragDemo/Trapezoid.js",
 		"bin-debug/AStar/a.js",
 		"bin-debug/AStar/AStarData.js",
 		"bin-debug/AStar/AStarGrid.js",
@@ -26,9 +26,13 @@
 		"bin-debug/common/ComPools.js",
 		"bin-debug/Data.js",
 		"bin-debug/common/Main.js",
-		"bin-debug/MainPanel.js",
-		"bin-debug/common/MyEvent.js",
 		"bin-debug/GameMgr.js",
+		"bin-debug/common/MyEvent.js",
+		"bin-debug/DragDemo/DragDemoMain.js",
+		"bin-debug/DragDemo/GameMgr.js",
+		"bin-debug/DragDemo/Model.js",
+		"bin-debug/GameMain.js",
+		"bin-debug/MineSweeper/MineEnum.js",
 		"bin-debug/MineSweeper/MineSweeper.js",
 		"bin-debug/MineSweeper/MineSweeperGrid.js",
 		"bin-debug/MineSweeper/MineSweeperModel.js",
@@ -42,6 +46,8 @@
 		"bin-debug/Trailing/Trailing.js",
 		"bin-debug/Trailing/Trailing2.js",
 		"bin-debug/Trailing/TrailingViaPic.js",
-		"bin-debug/Trailing/TrailRenderer.js"
+		"bin-debug/Trailing/TrailRenderer.js",
+		"bin-debug/VirtualListDemo/ListCom.js",
+		"bin-debug/VirtualListDemo/MianView.js"
 	]
 }

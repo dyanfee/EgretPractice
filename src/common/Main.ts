@@ -59,7 +59,7 @@ class Main extends egret.DisplayObjectContainer {
      * Create a game scene
      */
     private createGameScene() {
-
+        // egret.lifecycle.stage.setContentSize(1280, 720);
         let map = new MainPanel();
     }
 

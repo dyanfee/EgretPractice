@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,100">
+  <displayList>
+    <graph id="n0_o9j3" name="n0" xy="0,0" size="500,100" type="rect" lineSize="0" fillColor="#ff4c7545"/>
+    <text id="n1_o9j3" name="itemName" xy="17,12" size="165,43" font="SimHei" fontSize="39" color="#ffffff" text="itemName">
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <text id="n3_o9j3" name="itemDesc" xy="11,64" size="439,32" font="SimHei" fontSize="28" color="#ffffff" text="itemdescription itemdescription">
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <component id="n2_o9j3" name="acptBtn" src="o9j32u" fileName="map/VirtualListDemo/getBtn.xml" xy="377,28"/>
+  </displayList>
+</component>

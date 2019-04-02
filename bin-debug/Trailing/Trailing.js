@@ -18,7 +18,7 @@ var Trailing = (function (_super) {
         _this._rectHeight = 30;
         return _this;
     }
-    Trailing.prototype.onload = function () {
+    Trailing.prototype.myload = function () {
         this.addListen();
     };
     Trailing.prototype.addListen = function () {

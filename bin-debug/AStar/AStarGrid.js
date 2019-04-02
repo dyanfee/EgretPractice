@@ -8,14 +8,14 @@ var __extends = this && this.__extends || function __extends(t, e) {
 for (var i in e) e.hasOwnProperty(i) && (t[i] = e[i]);
 r.prototype = e.prototype, t.prototype = new r();
 };
-var PracticePro;
-(function (PracticePro) {
+var AstarPra;
+(function (AstarPra) {
     var Grid = (function (_super) {
         __extends(Grid, _super);
         function Grid() {
             return _super.call(this) || this;
         }
-        Grid.prototype.onload = function () {
+        Grid.prototype.myload = function () {
             var self = this;
             self._control = self.getControllerAt(0);
             this.addListen();
@@ -48,12 +48,12 @@ var PracticePro;
             this.removeEventListener(egret.TouchEvent.TOUCH_BEGIN, this.touch, this);
         };
         Grid.prototype.touch = function (e) {
-            MyEvent.dispach(PracticePro.Data.TOUCH_GRID, { "row": this._row, "col": this._col });
+            MyEvent.dispach(AstarPra.Data.TOUCH_GRID, { "row": this._row, "col": this._col });
             // console.log("row col", this._row, this._col);
         };
         return Grid;
     }(MyComponent));
-    PracticePro.Grid = Grid;
-    __reflect(Grid.prototype, "PracticePro.Grid");
-})(PracticePro || (PracticePro = {}));
+    AstarPra.Grid = Grid;
+    __reflect(Grid.prototype, "AstarPra.Grid");
+})(AstarPra || (AstarPra = {}));
 //# sourceMappingURL=AStarGrid.js.map

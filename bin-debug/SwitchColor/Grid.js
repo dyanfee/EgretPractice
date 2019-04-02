@@ -13,7 +13,7 @@ var SwitchColorGrid = (function (_super) {
     function SwitchColorGrid() {
         return _super.call(this) || this;
     }
-    SwitchColorGrid.prototype.onload = function () {
+    SwitchColorGrid.prototype.myload = function () {
         this._isKey = false;
     };
     Object.defineProperty(SwitchColorGrid.prototype, "isKey", {

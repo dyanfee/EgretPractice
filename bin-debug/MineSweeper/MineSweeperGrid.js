@@ -15,7 +15,7 @@ var MineSweeperGrid = (function (_super) {
         _this._touch = true;
         return _this;
     }
-    MineSweeperGrid.prototype.onload = function () {
+    MineSweeperGrid.prototype.myload = function () {
         this.touchable = false;
     };
     MineSweeperGrid.prototype.setPosition = function (row, col) {

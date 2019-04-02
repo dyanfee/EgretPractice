@@ -3,7 +3,7 @@ class Trailing3 extends MyComponent {
 	public constructor() {
 		super();
 	}
-	onload() {
+	myload() {
 		this.addListen();
 	}
 

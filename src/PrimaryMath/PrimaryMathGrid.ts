@@ -4,7 +4,7 @@ class PrimaryMathGrid extends MyComponent {
 	}
 	private _correctKey: boolean;
 	public _control: fairygui.Controller;
-	onload() {
+	myload() {
 		this._control = this.getController("c1");
 	}
 	public initGrid(num) {

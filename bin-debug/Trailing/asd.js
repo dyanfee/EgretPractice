@@ -15,7 +15,7 @@ var TrailingCs = (function (_super) {
         _this.LineArr = [];
         return _this;
     }
-    TrailingCs.prototype.onload = function () {
+    TrailingCs.prototype.myload = function () {
         this.addEventListener(egret.TouchEvent.TOUCH_BEGIN, this.onStageTouch, this);
         this.addEventListener(egret.TouchEvent.TOUCH_MOVE, this.onStageTouch, this);
         this.addEventListener(egret.TouchEvent.TOUCH_END, this.onStageTouch, this);

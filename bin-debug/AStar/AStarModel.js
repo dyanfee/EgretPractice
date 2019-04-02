@@ -1,8 +1,8 @@
 var __reflect = (this && this.__reflect) || function (p, c, t) {
     p.__class__ = c, t ? t.push(c) : t = [c], p.__types__ = p.__types__ ? t.concat(p.__types__) : t;
 };
-var PracticePro;
-(function (PracticePro) {
+var AstarPra;
+(function (AstarPra) {
     /**
      * A* 寻路
      */
@@ -65,10 +65,10 @@ var PracticePro;
             this._nodes = [];
             this._open = [];
             this._close = [];
-            for (var i = 0; i < PracticePro.Data.MAX_ROW; i++) {
+            for (var i = 0; i < AstarPra.Data.MAX_ROW; i++) {
                 this._nodes[i] = [];
-                for (var j = 0; j < PracticePro.Data.MAX_COL; j++) {
-                    this._nodes[i][j] = new PracticePro.Node(i, j);
+                for (var j = 0; j < AstarPra.Data.MAX_COL; j++) {
+                    this._nodes[i][j] = new AstarPra.Node(i, j);
                 }
             }
             this._heuristic = this.manhattan;
@@ -87,7 +87,7 @@ var PracticePro;
                     for (var j = node.col - 1; j <= node.col + 1; j++) {
                         if (i == node.row && j == node.col)
                             continue;
-                        if (i > PracticePro.Data.MAX_ROW - 1 || i < 0 || j > PracticePro.Data.MAX_COL - 1 || j < 0)
+                        if (i > AstarPra.Data.MAX_ROW - 1 || i < 0 || j > AstarPra.Data.MAX_COL - 1 || j < 0)
                             continue;
                         // 不可以斜行
                         if (i != node.row && j != node.col)
@@ -170,31 +170,25 @@ var PracticePro;
         });
         AStarModel.prototype.isOpen = function (node) {
             var len = this._open.length;
-            // TODO:优化查找数组中元素方案
-            for (var i = 0; i < len; i++) {
-                if (this._open[i] == node) {
-                    return true;
-                }
-            }
+            // 优化查找数组中元素方案
+            if (this._open.indexOf(node) > -1)
+                return true;
             return false;
         };
         AStarModel.prototype.isClose = function (node) {
             var len = this._close.length;
-            // TODO:优化查找数组中元素方案
-            for (var i = 0; i < len; i++) {
-                if (this._close[i] == node) {
-                    return true;
-                }
-            }
+            // 优化查找数组中元素方案
+            if (this._close.indexOf(node) > -1)
+                return true;
             return false;
         };
         // 曼哈顿距离
         AStarModel.prototype.manhattan = function (node) {
-            return ((PracticePro.Data.MAX_ROW - node.row) + (PracticePro.Data.MAX_COL - node.col)) * this._straightCost;
+            return ((AstarPra.Data.MAX_ROW - node.row) + (AstarPra.Data.MAX_COL - node.col)) * this._straightCost;
         };
         return AStarModel;
     }());
-    PracticePro.AStarModel = AStarModel;
-    __reflect(AStarModel.prototype, "PracticePro.AStarModel");
-})(PracticePro || (PracticePro = {}));
+    AstarPra.AStarModel = AStarModel;
+    __reflect(AStarModel.prototype, "AstarPra.AStarModel");
+})(AstarPra || (AstarPra = {}));
 //# sourceMappingURL=AStarModel.js.map

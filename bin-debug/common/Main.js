@@ -107,6 +107,7 @@ var Main = (function (_super) {
      * Create a game scene
      */
     Main.prototype.createGameScene = function () {
+        // egret.lifecycle.stage.setContentSize(1280, 720);
         var map = new MainPanel();
     };
     return Main;

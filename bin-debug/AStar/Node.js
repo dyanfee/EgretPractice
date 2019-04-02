@@ -1,8 +1,8 @@
 var __reflect = (this && this.__reflect) || function (p, c, t) {
     p.__class__ = c, t ? t.push(c) : t = [c], p.__types__ = p.__types__ ? t.concat(p.__types__) : t;
 };
-var PracticePro;
-(function (PracticePro) {
+var AstarPra;
+(function (AstarPra) {
     var Node = (function () {
         function Node(x, y) {
             this.walkable = true;
@@ -11,7 +11,7 @@ var PracticePro;
         }
         return Node;
     }());
-    PracticePro.Node = Node;
-    __reflect(Node.prototype, "PracticePro.Node");
-})(PracticePro || (PracticePro = {}));
+    AstarPra.Node = Node;
+    __reflect(Node.prototype, "AstarPra.Node");
+})(AstarPra || (AstarPra = {}));
 //# sourceMappingURL=Node.js.map

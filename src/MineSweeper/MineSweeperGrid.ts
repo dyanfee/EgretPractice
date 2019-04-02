@@ -2,7 +2,7 @@ class MineSweeperGrid extends MyComponent {
 	public constructor() {
 		super();
 	}
-	onload() {
+	myload() {
 		this.touchable = false;
 	}
 	public _touch: boolean = true;

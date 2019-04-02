@@ -18,7 +18,7 @@ class Map1 extends MyComponent {
 	private _timeText: fairygui.GTextField;
 	private _re: fairygui.GButton;
 	private _timeId: number;
-	onload() {
+	myload() {
 		this._re = this.getChild("re").asButton;
 		this._re.addClickListener(this.reStart, this)
 		this._scoreText = this.getChild("score").asTextField;

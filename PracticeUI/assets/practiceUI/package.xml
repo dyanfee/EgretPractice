@@ -72,6 +72,25 @@
     <image id="n8lj25" name="redgrid1.png" path="/map/Astar/"/>
     <component id="n8lj26" name="AStar.xml" path="/map/Astar/" exported="true"/>
     <component id="n8lj27" name="translucenceGrid.xml" path="/map/Astar/" exported="true"/>
+    <component id="athp28" name="DragDemo.xml" path="/map/DragDemo/" exported="true"/>
+    <image id="f3vn2b" name="方向底.png" path="/map/DragDemo/"/>
+    <component id="f3vn2c" name="力度.xml" path="/map/DragDemo/"/>
+    <image id="f3vn2d" name="方向力度.png" path="/map/DragDemo/"/>
+    <component id="f3vn2g" name="Trapezoid.xml" path="/map/DragDemo/" exported="true"/>
+    <component id="f3vn2h" name="0动画方向.xml" path="/map/DragDemo/"/>
+    <component id="f3vn2i" name="Point.xml" path="/map/DragDemo/" exported="true"/>
+    <image id="f3vn2j" name="优化_0001_椭圆-2-拷贝-9.png" path="/map/DragDemo/"/>
+    <image id="f3vn2k" name="优化_0002_椭圆-2-拷贝-9.png" path="/map/DragDemo/"/>
+    <image id="f3vn2l" name="优化_0003_椭圆-2-拷贝-9.png" path="/map/DragDemo/"/>
+    <image id="f3vn2m" name="优化_0004_椭圆-2-拷贝-9.png" path="/map/DragDemo/"/>
+    <image id="f3vn2n" name="优化_0005_椭圆-2-拷贝-8.png" path="/map/DragDemo/"/>
+    <image id="f3vn2o" name="优化_0006_椭圆-2-拷贝-7.png" path="/map/DragDemo/"/>
+    <image id="f3vn2p" name="优化_0007_椭圆-2-拷贝-6.png" path="/map/DragDemo/"/>
+    <image id="f3vn2q" name="优化_0008_椭圆-2-拷贝-2.png" path="/map/DragDemo/"/>
+    <image id="f3vn2r" name="优化_0009_椭圆-2.png" path="/map/DragDemo/"/>
+    <component id="o9j32s" name="VirtualListMainView.xml" path="/map/VirtualListDemo/" exported="true"/>
+    <component id="o9j32t" name="ListCom.xml" path="/map/VirtualListDemo/" exported="true"/>
+    <component id="o9j32u" name="getBtn.xml" path="/map/VirtualListDemo/"/>
   </resources>
   <publish name="practiceUI" path="E:\VsCode\EgretProject\PracticeProject\resource\assets"/>
 </packageDescription>

@@ -26,7 +26,7 @@ var Trailing3 = (function (_super) {
         _this._reducScale = 0.07;
         return _this;
     }
-    Trailing3.prototype.onload = function () {
+    Trailing3.prototype.myload = function () {
         this.addListen();
     };
     Trailing3.prototype.addListen = function () {

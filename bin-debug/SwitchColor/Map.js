@@ -13,7 +13,7 @@ var Map1 = (function (_super) {
     function Map1() {
         return _super.call(this) || this;
     }
-    Map1.prototype.onload = function () {
+    Map1.prototype.myload = function () {
         this._re = this.getChild("re").asButton;
         this._re.addClickListener(this.reStart, this);
         this._scoreText = this.getChild("score").asTextField;

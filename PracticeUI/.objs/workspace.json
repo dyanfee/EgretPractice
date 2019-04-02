@@ -1,4 +1,13 @@
 {
+	"expanded_nodes": [
+		"bs15qb72",
+		"/"
+	],
+	"active_doc": [
+		"bs15qb72",
+		"o9j32u"
+	],
+	"hidden_packages": [],
 	"docs": [
 		"bs15qb72",
 		"9brho",
@@ -25,15 +34,8 @@
 		"bs15qb72",
 		"emt318",
 		"bs15qb72",
-		"n8lj27"
-	],
-	"expanded_nodes": [
+		"n8lj27",
 		"bs15qb72",
-		"/"
-	],
-	"active_doc": [
-		"bs15qb72",
-		"n8lj26"
-	],
-	"hidden_packages": []
+		"o9j32u"
+	]
 }

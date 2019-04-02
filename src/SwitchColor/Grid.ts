@@ -3,7 +3,7 @@ class SwitchColorGrid extends MyComponent {
 	public constructor() {
 		super();
 	}
-	onload() {
+	myload() {
 		this._isKey = false;
 	}
 	public set isKey(val) {

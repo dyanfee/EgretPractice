@@ -2,7 +2,7 @@ class TrailingCs extends MyComponent {
 	public constructor() {
 		super();
 	}
-	onload() {
+	myload() {
 
 		this.addEventListener(egret.TouchEvent.TOUCH_BEGIN, this.onStageTouch, this);
 		this.addEventListener(egret.TouchEvent.TOUCH_MOVE, this.onStageTouch, this);

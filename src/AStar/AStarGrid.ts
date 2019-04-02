@@ -1,4 +1,4 @@
-module PracticePro {
+module AstarPra {
 	export class Grid extends MyComponent {
 		public constructor() {
 			super();
@@ -6,7 +6,7 @@ module PracticePro {
 		private _row: number;
 		private _col: number;
 		private _control: fairygui.Controller;
-		onload() {
+		myload() {
 			let self = this;
 			self._control = self.getControllerAt(0);
 			this.addListen();
