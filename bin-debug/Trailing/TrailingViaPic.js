@@ -9,9 +9,9 @@ for (var i in e) e.hasOwnProperty(i) && (t[i] = e[i]);
 r.prototype = e.prototype, t.prototype = new r();
 };
 /** 使用图片绘制尾巴 */
-var Trailing3 = (function (_super) {
-    __extends(Trailing3, _super);
-    function Trailing3() {
+var TrailingViaPic = (function (_super) {
+    __extends(TrailingViaPic, _super);
+    function TrailingViaPic() {
         var _this = _super.call(this) || this;
         // 存放绘制矩形的数组
         _this._lineArr = [];
@@ -26,22 +26,22 @@ var Trailing3 = (function (_super) {
         _this._reducScale = 0.07;
         return _this;
     }
-    Trailing3.prototype.myload = function () {
+    TrailingViaPic.prototype.myload = function () {
         this.addListen();
     };
-    Trailing3.prototype.addListen = function () {
+    TrailingViaPic.prototype.addListen = function () {
         this.addEventListener(egret.TouchEvent.TOUCH_BEGIN, this.onTouch, this);
         this.addEventListener(egret.TouchEvent.TOUCH_MOVE, this.onTouch, this);
         this.addEventListener(egret.TouchEvent.TOUCH_END, this.onTouch, this);
         this.addEventListener(egret.Event.ENTER_FRAME, this.clean, this);
     };
-    Trailing3.prototype.removeListen = function () {
+    TrailingViaPic.prototype.removeListen = function () {
         this.removeEventListener(egret.TouchEvent.TOUCH_BEGIN, this.onTouch, this);
         this.removeEventListener(egret.TouchEvent.TOUCH_MOVE, this.onTouch, this);
         this.removeEventListener(egret.TouchEvent.TOUCH_END, this.onTouch, this);
         this.removeEventListener(egret.Event.ENTER_FRAME, this.clean, this);
     };
-    Trailing3.prototype.onTouch = function (evt) {
+    TrailingViaPic.prototype.onTouch = function (evt) {
         switch (evt.type) {
             case "touchBegin":
                 // this.createRect(evt.stageX, evt.stageY);
@@ -74,14 +74,14 @@ var Trailing3 = (function (_super) {
      * @param  dis 上个点击位置与当前位置的距离
      * @param angle  直接计算得到的旋转角度
      */
-    Trailing3.prototype.createOneRect = function (dis, angle) {
+    TrailingViaPic.prototype.createOneRect = function (dis, angle) {
         var disTemp = dis / 2;
         var x1 = this._oldTouchX + disTemp * Math.cos(angle);
         var y1 = this._oldTouchY + disTemp * Math.sin(angle);
         this._rectWidth = dis;
         this.createRect(x1, y1, angle);
     };
-    Trailing3.prototype.createMultiRect = function (dis, angle) {
+    TrailingViaPic.prototype.createMultiRect = function (dis, angle) {
         var len = Math.ceil(dis / this._rectWidth);
         for (var i = 0; i < len; i++) {
             var disTemp = this._rectWidth * (i + 1 / 2);
@@ -94,7 +94,7 @@ var Trailing3 = (function (_super) {
             this.createRect(x1, y1, angle);
         }
     };
-    Trailing3.prototype.createRect = function (x1, y2, angle) {
+    TrailingViaPic.prototype.createRect = function (x1, y2, angle) {
         var effect = this.getShape();
         effect.width = this._rectWidth;
         effect.height = this._rectHeight;
@@ -109,7 +109,7 @@ var Trailing3 = (function (_super) {
         this._lineArr.push(effect);
     };
     // 帧事件清理尾巴
-    Trailing3.prototype.clean = function () {
+    TrailingViaPic.prototype.clean = function () {
         // 遍历存放矩形的数组 设置大小
         if (this._lineArr.length > 0) {
             for (var a = 0; a < this._lineArr.length; a++) {
@@ -130,7 +130,7 @@ var Trailing3 = (function (_super) {
         }
         return false;
     };
-    Trailing3.prototype.getShape = function () {
+    TrailingViaPic.prototype.getShape = function () {
         var self = this;
         var img;
         if (self._picPool && self._picPool.length != 0)
@@ -139,7 +139,7 @@ var Trailing3 = (function (_super) {
             img = fairygui.UIPackage.createObject(Data.pkgName, "pic").asImage;
         return img;
     };
-    Trailing3.prototype.cacheShape = function (img) {
+    TrailingViaPic.prototype.cacheShape = function (img) {
         var self = this;
         // console.log(self._picPool);
         if (!self._picPool)
@@ -155,13 +155,13 @@ var Trailing3 = (function (_super) {
             img = null;
         }
     };
-    Trailing3.prototype.dispose = function () {
+    TrailingViaPic.prototype.dispose = function () {
         this.removeListen();
         this._picPool = null;
         this._lineArr = null;
         _super.prototype.dispose.call(this);
     };
-    return Trailing3;
+    return TrailingViaPic;
 }(MyComponent));
-__reflect(Trailing3.prototype, "Trailing3");
+__reflect(TrailingViaPic.prototype, "TrailingViaPic");
 //# sourceMappingURL=TrailingViaPic.js.map

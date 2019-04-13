@@ -23,7 +23,7 @@ var MainPanel = (function (_super) {
         this.registComponent("MineSweeperGrid", MineSweeperGrid);
         // this.registComponent("Trailing", Trailing);
         // this.registComponent("Trailing", Trailing2);
-        this.registComponent("Trailing", Trailing3);
+        this.registComponent("Trailing", TrailingViaPic);
         this.registComponent("AStar", AstarPra.SeachMap);
         this.registComponent("translucenceGrid", AstarPra.Grid);
         this.registComponent("DragDemo", DragPro.DragDemoMain);

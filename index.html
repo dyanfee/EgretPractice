@@ -69,6 +69,7 @@
         var manifest = JSON.parse(xhr.response);
         var list = manifest.initial.concat(manifest.game);
         loadScript(list, function () {
+            console.log("进入Egret节奏！")
             /**
              * {
              * "renderMode":, //Engine rendering mode, "canvas" or "webgl"

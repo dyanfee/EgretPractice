@@ -1,7 +1,8 @@
 /** 使用图片绘制尾巴 */
-class Trailing3 extends MyComponent {
+class TrailingViaPic extends MyComponent {
 	public constructor() {
 		super();
+
 	}
 	myload() {
 		this.addListen();
@@ -33,6 +34,7 @@ class Trailing3 extends MyComponent {
 		this.removeEventListener(egret.TouchEvent.TOUCH_END, this.onTouch, this);
 		this.removeEventListener(egret.Event.ENTER_FRAME, this.clean, this);
 	}
+
 	private onTouch(evt: egret.TouchEvent) {
 		switch (evt.type) {
 			case "touchBegin":
