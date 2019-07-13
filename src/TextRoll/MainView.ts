@@ -32,7 +32,7 @@ module TextRoll {
 		}
 
 		setItemData(num) {
-
+			// this._list.scrollToView()
 		}
 	}
 }
