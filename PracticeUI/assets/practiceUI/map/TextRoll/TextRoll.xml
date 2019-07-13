@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n0_pl1p" name="roll" src="pl1p3c" fileName="map/TextRoll/Component2.xml" xy="265,457"/>
+  </displayList>
+</component>

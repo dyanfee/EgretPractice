@@ -22,6 +22,8 @@ class MainPanel extends FairyWindow {
 		this.registComponent("Trapezoid", DragPro.Trapezoid);
 		this.registComponent("VirtualListMainView", VirtualListDemo.MainView);
 		this.registComponent("ListCom", VirtualListDemo.ListCom);
+		this.registComponent("Flash", Flash.MainView);
+		this.registComponent("TextRoll", TextRoll.MainView);
 
 	}
 	initListen() {
@@ -32,7 +34,9 @@ class MainPanel extends FairyWindow {
 	}
 	initView() {
 		super.initView();
-		this._map = this.createObject("Trailing") as TrailingViaPic;
+		// this._map = this.createObject("Trailing") as TrailingViaPic;
+		// this._map = this.createObject("Flash") as Flash.MainView;
+		this._map = this.createObject("TextRoll") as TextRoll.MainView;
 		// this._map.init();
 		this._ui.addChild(this._map);
 		this.gameStart();

@@ -91,6 +91,23 @@
     <component id="o9j32s" name="VirtualListMainView.xml" path="/map/VirtualListDemo/" exported="true"/>
     <component id="o9j32t" name="ListCom.xml" path="/map/VirtualListDemo/" exported="true"/>
     <component id="o9j32u" name="getBtn.xml" path="/map/VirtualListDemo/"/>
+    <component id="hov12v" name="Flash.xml" path="/map/Flash/" exported="true"/>
+    <component id="in1w2x" name="Slider_grip.xml" path="/map/Flash/"/>
+    <component id="in1w2y" name="Slider.xml" path="/map/Flash/"/>
+    <component id="pl1p2z" name="TextRoll.xml" path="/map/TextRoll/" exported="true"/>
+    <font id="pl1p30" name="MoneyFont.fnt" path="/map/TextRoll/" exported="true"/>
+    <image id="pl1p31" name="主玩界面_0048_金币数字0.png" path="/map/TextRoll/res/"/>
+    <image id="pl1p32" name="主玩界面_0049_金币数字9-.png" path="/map/TextRoll/res/"/>
+    <image id="pl1p33" name="主玩界面_0050_金币数字8-.png" path="/map/TextRoll/res/"/>
+    <image id="pl1p34" name="主玩界面_0051_金币数字7-.png" path="/map/TextRoll/res/"/>
+    <image id="pl1p35" name="主玩界面_0052_金币数字6.png" path="/map/TextRoll/res/"/>
+    <image id="pl1p36" name="主玩界面_0053_金币数字5.png" path="/map/TextRoll/res/"/>
+    <image id="pl1p37" name="主玩界面_0054_金币数字4.png" path="/map/TextRoll/res/"/>
+    <image id="pl1p38" name="主玩界面_0055_金币数字3.png" path="/map/TextRoll/res/"/>
+    <image id="pl1p39" name="主玩界面_0056_金币数字2-.png" path="/map/TextRoll/res/"/>
+    <image id="pl1p3a" name="主玩界面_0057_金币数字1.png" path="/map/TextRoll/res/"/>
+    <component id="pl1p3b" name="Component1.xml" path="/map/TextRoll/"/>
+    <component id="pl1p3c" name="Component2.xml" path="/map/TextRoll/"/>
   </resources>
   <publish name="practiceUI" path="E:\VsCode\EgretProject\PracticeProject\resource\assets"/>
 </packageDescription>

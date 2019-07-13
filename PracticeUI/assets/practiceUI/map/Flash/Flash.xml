@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n0_in1w" name="thicknesss" src="in1w2y" fileName="map/Flash/Slider.xml" xy="153,967" size="460,30">
+      <Slider value="5" max="100"/>
+    </component>
+    <text id="n1_in1w" name="thickness" xy="14,969" size="135,27" font="SimHei" fontSize="23" color="#ffffff" bold="true" text="thickness:"/>
+    <text id="n2_in1w" name="thicknessv" xy="635,968" size="57,27" font="SimHei" fontSize="23" color="#ffffff" bold="true" text="0123"/>
+    <component id="n3_in1w" name="boltss" src="in1w2y" fileName="map/Flash/Slider.xml" xy="154,1037" size="460,30">
+      <Slider value="1" max="15"/>
+    </component>
+    <text id="n4_in1w" name="bolts" xy="66,1039" size="83,27" font="SimHei" fontSize="23" color="#ffffff" bold="true" text="bolts:"/>
+    <text id="n5_in1w" name="boltsv" xy="635,1038" size="57,27" font="SimHei" fontSize="23" color="#ffffff" bold="true" text="0123"/>
+    <component id="n7_in1w" name="details" src="in1w2y" fileName="map/Flash/Slider.xml" xy="152,1107" size="460,30">
+      <Slider value="5" max="100"/>
+    </component>
+    <text id="n8_in1w" name="detail" xy="53,1109" size="96,27" font="SimHei" fontSize="23" color="#ffffff" bold="true" text="detail:"/>
+    <text id="n9_in1w" name="detailv" xy="634,1108" size="57,27" font="SimHei" fontSize="23" color="#ffffff" bold="true" text="0123"/>
+    <component id="n11_in1w" name="displaces" src="in1w2y" fileName="map/Flash/Slider.xml" xy="152,1177" size="460,30">
+      <Slider value="100" max="500"/>
+    </component>
+    <text id="n12_in1w" name="displace" xy="27,1179" size="122,27" font="SimHei" fontSize="23" color="#ffffff" bold="true" text="displace:"/>
+    <text id="n13_in1w" name="displacev" xy="634,1178" size="57,27" font="SimHei" fontSize="23" color="#ffffff" bold="true" text="0123"/>
+  </displayList>
+</component>

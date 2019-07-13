@@ -30,6 +30,8 @@ var MainPanel = (function (_super) {
         this.registComponent("Trapezoid", DragPro.Trapezoid);
         this.registComponent("VirtualListMainView", VirtualListDemo.MainView);
         this.registComponent("ListCom", VirtualListDemo.ListCom);
+        this.registComponent("Flash", Flash.MainView);
+        this.registComponent("TextRoll", TextRoll.MainView);
     };
     MainPanel.prototype.initListen = function () {
     };
@@ -37,7 +39,9 @@ var MainPanel = (function (_super) {
     };
     MainPanel.prototype.initView = function () {
         _super.prototype.initView.call(this);
-        this._map = this.createObject("Trailing");
+        // this._map = this.createObject("Trailing") as TrailingViaPic;
+        // this._map = this.createObject("Flash") as Flash.MainView;
+        this._map = this.createObject("TextRoll");
         // this._map.init();
         this._ui.addChild(this._map);
         this.gameStart();
