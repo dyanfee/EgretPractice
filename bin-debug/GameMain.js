@@ -32,6 +32,8 @@ var MainPanel = (function (_super) {
         this.registComponent("ListCom", VirtualListDemo.ListCom);
         this.registComponent("Flash", Flash.MainView);
         this.registComponent("TextRoll", TextRoll.MainView);
+        this.registComponent("RollItem", TextRoll.RollItem);
+        this.registComponent("Collision", Collision.MainView);
     };
     MainPanel.prototype.initListen = function () {
     };
@@ -41,7 +43,8 @@ var MainPanel = (function (_super) {
         _super.prototype.initView.call(this);
         // this._map = this.createObject("Trailing") as TrailingViaPic;
         // this._map = this.createObject("Flash") as Flash.MainView;
-        this._map = this.createObject("TextRoll");
+        // this._map = this.createObject("TextRoll") as TextRoll.MainView;
+        this._map = this.createObject("Collision");
         // this._map.init();
         this._ui.addChild(this._map);
         this.gameStart();

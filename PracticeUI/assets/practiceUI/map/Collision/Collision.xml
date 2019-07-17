@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <graph id="n0_u2ra" name="circle" xy="302,466" pivot="0.5,0.5" anchor="true" size="400,400" aspect="true" type="eclipse" fillColor="#00ffffff"/>
+    <graph id="n1_u2ra" name="n1" xy="296,460" size="10,10" touchable="false" type="eclipse" lineSize="0" fillColor="#ffff0000">
+      <relation target="n0_u2ra" sidePair="center-center,middle-middle"/>
+    </graph>
+    <graph id="n2_u2ra" name="start" xy="69,636" pivot="0.5,0.5" anchor="true" size="60,60" aspect="true" type="eclipse" lineSize="0" fillColor="#ff00ff00"/>
+    <graph id="n3_u2ra" name="n3" xy="66,633" size="6,6" touchable="false" type="eclipse" lineSize="0" fillColor="#ffff0000">
+      <relation target="n2_u2ra" sidePair="center-center,middle-middle"/>
+    </graph>
+    <graph id="n4_u2ra" name="end" xy="604,536" pivot="0.5,0.5" anchor="true" size="60,60" aspect="true" type="eclipse" lineSize="0"/>
+    <graph id="n5_u2ra" name="n5" xy="602,534" size="6,6" touchable="false" type="eclipse" lineSize="0" fillColor="#ffff0000">
+      <relation target="n4_u2ra" sidePair="center-center,middle-middle"/>
+    </graph>
+  </displayList>
+</component>
