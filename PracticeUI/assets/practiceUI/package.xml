@@ -110,6 +110,9 @@
     <component id="pl1p3c" name="Component2.xml" path="/map/TextRoll/"/>
     <component id="j7z13d" name="Component3.xml" path="/map/TextRoll/"/>
     <component id="u2ra3e" name="Collision.xml" path="/map/Collision/" exported="true"/>
+    <component id="velx3f" name="FollowDemo.xml" path="/map/FollowDemo/" exported="true"/>
+    <component id="velx3h" name="Component4.xml" path="/map/FollowDemo/"/>
+    <component id="velx3i" name="Pet.xml" path="/map/FollowDemo/" exported="true"/>
   </resources>
-  <publish name="practiceUI" path="E:\VsCode\EgretProject\PracticeProject\resource\assets"/>
+  <publish name="practiceUI" path="E:\TypeScript\EgretPractice\resource\assets"/>
 </packageDescription>

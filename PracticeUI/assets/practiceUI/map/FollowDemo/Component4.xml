@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="140,240">
+  <displayList>
+    <graph id="n3_velx" name="n3" xy="0,209" size="140,31" type="eclipse"/>
+    <graph id="n2_velx" name="n2" xy="0,15" size="140,210" type="rect"/>
+    <graph id="n0_velx" name="n0" xy="0,0" size="140,31" type="eclipse"/>
+    <graph id="n5_velx" name="n5" xy="0,209" size="138,28" type="eclipse" lineSize="0"/>
+  </displayList>
+</component>
