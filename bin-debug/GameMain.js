@@ -34,6 +34,7 @@ var MainPanel = (function (_super) {
         this.registComponent("TextRoll", TextRoll.MainView);
         this.registComponent("RollItem", TextRoll.RollItem);
         this.registComponent("Collision", Collision.MainView);
+        // this.registComponent("FollowDemo", FollowDemo.MainView);
     };
     MainPanel.prototype.initListen = function () {
     };
@@ -45,6 +46,7 @@ var MainPanel = (function (_super) {
         // this._map = this.createObject("Flash") as Flash.MainView;
         // this._map = this.createObject("TextRoll") as TextRoll.MainView;
         this._map = this.createObject("Collision");
+        // this._map = this.createObject("FollowDemo") as Collision.MainView;
         // this._map.init();
         this._ui.addChild(this._map);
         this.gameStart();

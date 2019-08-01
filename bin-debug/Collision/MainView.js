@@ -20,25 +20,46 @@ var Collision;
             self._start = self.getChild("start").asGraph;
             self._end = self.getChild("end").asGraph;
             self._circle = self.getChild("circle").asGraph;
+            self._rect = self.getChild("rect").asGraph;
             self._start.addEventListener(egret.TouchEvent.TOUCH_MOVE, self.clickStart, self);
-            self._end.addEventListener(egret.TouchEvent.TOUCH_END, self.clickEnd, self);
-            self._circle.addEventListener(egret.TouchEvent.TOUCH_MOVE, self.clickCircle, self);
+            self._end.addEventListener(egret.TouchEvent.TOUCH_MOVE, self.clickEnd, self);
+            self._circle.addEventListener(egret.TouchEvent.TOUCH_MOVE, self.clickRect, self);
+            self._rect.addEventListener(egret.TouchEvent.TOUCH_MOVE, self.clickCircle, self);
             self._line = new egret.Shape();
             self.displayListContainer.addChild(self._line);
         };
         MainView.prototype.clickStart = function (e) {
             this._start.x = e.stageX;
             this._start.y = e.stageY;
-            this.drawLine();
+            // this.drawLine();
+            this.testRect2Line();
         };
         MainView.prototype.clickEnd = function (e) {
             this._end.x = e.stageX;
             this._end.y = e.stageY;
-            this.drawLine();
+            // this.drawLine();
+            this.testRect2Line();
         };
         MainView.prototype.clickCircle = function (e) {
             this._circle.x = e.stageX;
             this._circle.y = e.stageY;
+        };
+        MainView.prototype.clickRect = function (e) {
+            this._rect.x = e.stageX;
+            this._rect.y = e.stageY;
+        };
+        MainView.prototype.testRect2Line = function () {
+            this._line.graphics.clear();
+            this._line.graphics.lineStyle(3, 0xffffff);
+            this._line.graphics.moveTo(this._start.x, this._start.y);
+            this._line.graphics.lineTo(this._end.x, this._end.y);
+            if (MainView.line2Rect(this._start.x, this._start.y, this._end.x, this._end.y, { x: this._rect.x, y: this._rect.y, width: this._rect.width, height: this._rect.height })) {
+                console.log("collision");
+                this._line.graphics.clear();
+                this._line.graphics.lineStyle(3, 0xff0000);
+                this._line.graphics.moveTo(this._start.x, this._start.y);
+                this._line.graphics.lineTo(this._end.x, this._end.y);
+            }
         };
         MainView.prototype.drawLine = function () {
             this._line.graphics.clear();
@@ -83,6 +104,58 @@ var Collision;
                 }
             }
             return 0;
+        };
+        MainView.line2Rect = function (p1x, p1y, p2x, p2y, rect) {
+            var p1 = { x: p1x, y: p1y };
+            var p2 = { x: p2x, y: p2y };
+            var lefttop = { x: rect.x, y: rect.y }, righttop = { x: rect.x + rect.width, y: rect.y }, leftBottom = { x: rect.x, y: rect.y + rect.height }, rightbottom = { x: righttop.x, y: leftBottom.y };
+            if (MainView.rectContains(rect, p1x, p1y) && MainView.rectContains(rect, p2x, p2y)) {
+                return true;
+            }
+            if (MainView.line2line(p1, p2, lefttop, righttop)) {
+                return true;
+            }
+            if (MainView.line2line(p1, p2, leftBottom, lefttop)) {
+                return true;
+            }
+            if (MainView.line2line(p1, p2, rightbottom, righttop)) {
+                return true;
+            }
+            if (MainView.line2line(p1, p2, leftBottom, rightbottom)) {
+                return true;
+            }
+            return false;
+        };
+        MainView.line2line = function (p1, p2, c1, c2) {
+            if (Math.max(p1.x, p2.x) < Math.min(c1.x, c2.x)) {
+                return false;
+            }
+            if (Math.max(p1.y, p2.y) < Math.min(c1.y, c2.y)) {
+                return false;
+            }
+            if (Math.max(c1.x, c2.x) < Math.min(p1.x, p2.x)) {
+                return false;
+            }
+            if (Math.max(c1.y, c2.y) < Math.min(p1.y, p2.y)) {
+                return false;
+            }
+            if (MainView.mult(c1, p2, p1) * MainView.mult(p2, c2, p1) < 0) {
+                return false;
+            }
+            if (MainView.mult(p1, c2, c1) * MainView.mult(c2, p2, c1) < 0) {
+                return false;
+            }
+            return true;
+        };
+        MainView.mult = function (a, b, c) {
+            return (a.x - c.x) * (b.y - c.y) - (b.x - c.x) * (a.y - c.y);
+        };
+        /** 点与矩形区域 */
+        MainView.rectContains = function (rect, x, y) {
+            return rect.x <= x &&
+                rect.x + rect.width >= x &&
+                rect.y <= y &&
+                rect.y + rect.height >= y;
         };
         /**
        * 线段和圆碰撞检测2

@@ -114,5 +114,5 @@
     <component id="velx3h" name="Component4.xml" path="/map/FollowDemo/"/>
     <component id="velx3i" name="Pet.xml" path="/map/FollowDemo/" exported="true"/>
   </resources>
-  <publish name="practiceUI" path="E:\TypeScript\EgretPractice\resource\assets"/>
+  <publish name="practiceUI" path="E:\VsCode\EgretProject\PracticeProject\resource\assets"/>
 </packageDescription>
