@@ -48,14 +48,16 @@ module TextRoll {
 		private __ = 0;
 		setItemData(num) {
 			num = parseInt(num);
-			let ratio;
-			if (num > this.__) {
-				ratio = num - this.__;
-			} else {
-				ratio = num + this.__;
-			}
-			this.__ = num;
-			this._list.scrollPane.scrollDown(ratio, true);
+			// let ratio;
+			// if (num > this.__) {
+			// 	ratio = num - this.__;
+			// } else {
+			// 	ratio = num + this.__;
+			// }
+			// this.__ = num;
+			// this._list.scrollPane.scrollDown(ratio, true);
+			this._list.scrollToView(num, true);
+			// this._list.numItems = 10;
 		}
 	}
 }
