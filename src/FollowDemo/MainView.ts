@@ -49,7 +49,7 @@ module FollowDemo {
 				let zigzag = this.encodeZigzag(n[i]);
 				console.log("zigzag", zigzag.toString());
 
-				let writeBuf = this.writeToBuffer(zigzag,)
+				let writeBuf = this.writeToBuffer
 			}
 		}
 	}
