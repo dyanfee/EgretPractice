@@ -26,7 +26,7 @@ class MainPanel extends FairyWindow {
 		this.registComponent("TextRoll", TextRoll.MainView);
 		this.registComponent("RollItem", TextRoll.RollItem);
 		this.registComponent("Collision", Collision.MainView);
-		// this.registComponent("FollowDemo", FollowDemo.MainView);
+		this.registComponent("FollowDemo", FollowDemo.MainView);
 
 	}
 	initListen() {
@@ -39,9 +39,9 @@ class MainPanel extends FairyWindow {
 		super.initView();
 		// this._map = this.createObject("Trailing") as TrailingViaPic;
 		// this._map = this.createObject("Flash") as Flash.MainView;
-		this._map = this.createObject("TextRoll") as TextRoll.MainView;
+		// this._map = this.createObject("TextRoll") as TextRoll.MainView;
 		// this._map = this.createObject("Collision") as Collision.MainView;
-		// this._map = this.createObject("FollowDemo") as Collision.MainView;
+		this._map = this.createObject("FollowDemo") as FollowDemo.MainView;
 		// this._map.init();
 		this._ui.addChild(this._map);
 		this.gameStart();

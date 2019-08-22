@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="720,1280">
-  <displayList>
-    <component id="n2_velx" name="target" src="velx3h" fileName="map/FollowDemo/Component4.xml" xy="328,1033" pivot="0.5,1" anchor="true"/>
-    <component id="n8_velx" name="n8" src="velx3i" fileName="map/FollowDemo/Pet.xml" xy="169,1152"/>
-  </displayList>
+  <displayList/>
 </component>
