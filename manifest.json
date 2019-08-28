@@ -35,6 +35,7 @@
 		"bin-debug/DragDemo/Trapezoid.js",
 		"bin-debug/Flash/MainView.js",
 		"bin-debug/GameMain.js",
+		"bin-debug/FollowDemo/CompressTool.js",
 		"bin-debug/FollowDemo/MainView.js",
 		"bin-debug/MineSweeper/MineEnum.js",
 		"bin-debug/MineSweeper/MineSweeper.js",
