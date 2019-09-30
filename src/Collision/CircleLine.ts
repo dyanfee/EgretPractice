@@ -14,7 +14,7 @@ module Collision {
 		width: number;
 		height: number;
 	}
-	export class MainView extends MyComponent {
+	export class CircleLine extends MyComponent {
 		private _start: fairygui.GGraph;
 		private _end: fairygui.GGraph;
 		private _circle: fairygui.GGraph;
@@ -65,7 +65,7 @@ module Collision {
 			this._line.graphics.lineStyle(3, 0xffffff);
 			this._line.graphics.moveTo(this._start.x, this._start.y);
 			this._line.graphics.lineTo(this._end.x, this._end.y);
-			if (MainView.line2Rect(this._start.x, this._start.y, this._end.x, this._end.y, { x: this._rect.x, y: this._rect.y, width: this._rect.width, height: this._rect.height })) {
+			if (CircleLine.line2Rect(this._start.x, this._start.y, this._end.x, this._end.y, { x: this._rect.x, y: this._rect.y, width: this._rect.width, height: this._rect.height })) {
 				console.log("collision");
 				this._line.graphics.clear();
 				this._line.graphics.lineStyle(3, 0xff0000);
@@ -84,7 +84,7 @@ module Collision {
 			// 	MainView.line2Circle(this._start.x, this._start.y, this._end.x, this._end.y, { x: this._circle.x, y: this._circle.y, r: 200 })
 			// }
 			for (let i = 0; i < 10000000; i++) {
-				MainView.lineCircleHitTest({ x: this._start.x, y: this._start.y }, { x: this._end.x, y: this._end.y }, { x: this._circle.x, y: this._circle.y }, 200)
+				CircleLine.lineCircleHitTest({ x: this._start.x, y: this._start.y }, { x: this._end.x, y: this._end.y }, { x: this._circle.x, y: this._circle.y }, 200)
 			}
 			let _sta = egret.getTimer();
 			console.log(_sta - _start);
@@ -128,19 +128,19 @@ module Collision {
 				righttop: IPoint = { x: rect.x + rect.width, y: rect.y },
 				leftBottom: IPoint = { x: rect.x, y: rect.y + rect.height },
 				rightbottom: IPoint = { x: righttop.x, y: leftBottom.y };
-			if (MainView.rectContains(rect, p1x, p1y) && MainView.rectContains(rect, p2x, p2y)) {
+			if (CircleLine.rectContains(rect, p1x, p1y) && CircleLine.rectContains(rect, p2x, p2y)) {
 				return true;
 			}
-			if (MainView.line2line(p1, p2, lefttop, righttop)) {
+			if (CircleLine.line2line(p1, p2, lefttop, righttop)) {
 				return true;
 			}
-			if (MainView.line2line(p1, p2, leftBottom, lefttop)) {
+			if (CircleLine.line2line(p1, p2, leftBottom, lefttop)) {
 				return true;
 			}
-			if (MainView.line2line(p1, p2, rightbottom, righttop)) {
+			if (CircleLine.line2line(p1, p2, rightbottom, righttop)) {
 				return true;
 			}
-			if (MainView.line2line(p1, p2, leftBottom, rightbottom)) {
+			if (CircleLine.line2line(p1, p2, leftBottom, rightbottom)) {
 				return true;
 			}
 			return false;
@@ -160,10 +160,10 @@ module Collision {
 			if (Math.max(c1.y, c2.y) < Math.min(p1.y, p2.y)) {
 				return false;
 			}
-			if (MainView.mult(c1, p2, p1) * MainView.mult(p2, c2, p1) < 0) {
+			if (CircleLine.mult(c1, p2, p1) * CircleLine.mult(p2, c2, p1) < 0) {
 				return false;
 			}
-			if (MainView.mult(p1, c2, c1) * MainView.mult(c2, p2, c1) < 0) {
+			if (CircleLine.mult(p1, c2, c1) * CircleLine.mult(c2, p2, c1) < 0) {
 				return false;
 			}
 			return true;

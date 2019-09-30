@@ -38,6 +38,10 @@
     {
       "name": "zlib",
       "path": "libs/zlib"
+    },
+    {
+      "name": "physics",
+      "path": "./libs/physics"
     }
   ]
 }

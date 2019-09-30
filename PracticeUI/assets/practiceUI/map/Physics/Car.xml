@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="124,315" pivot="0.5,0.5" anchor="true">
+  <displayList>
+    <image id="n1_q1ow" name="n1" src="ign23p" fileName="map/Physics/carbody-sheet0.png" xy="-6,-2"/>
+    <image id="n2_oguw" name="n2" src="ign23q" fileName="map/Physics/b_l_wheel-sheet0.png" xy="11,74" pivot="0.5,0.5" anchor="true"/>
+    <image id="n3_oguw" name="n3" src="ign23q" fileName="map/Physics/b_l_wheel-sheet0.png" xy="113,74" pivot="0.5,0.5" anchor="true"/>
+    <image id="n4_oguw" name="n4" src="ign23q" fileName="map/Physics/b_l_wheel-sheet0.png" xy="11,229" pivot="0.5,0.5" anchor="true"/>
+    <image id="n5_oguw" name="n5" src="ign23q" fileName="map/Physics/b_l_wheel-sheet0.png" xy="113,229" pivot="0.5,0.5" anchor="true"/>
+  </displayList>
+</component>

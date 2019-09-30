@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n6_h6m7" name="rect1" src="ivdy3u" fileName="map/Collision/Component6.xml" xy="324,445" pivot="0.5,0.5" anchor="true"/>
+    <component id="n7_ivdy" name="rect2" src="ivdy3t" fileName="map/Collision/Component5.xml" xy="372,961"/>
+  </displayList>
+</component>

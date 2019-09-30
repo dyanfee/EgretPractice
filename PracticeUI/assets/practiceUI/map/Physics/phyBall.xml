@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="153,153">
+  <displayList>
+    <graph id="n4_kh8v" name="n4" xy="0,0" pivot="0.5,0.5" size="153,153" aspect="true" type="eclipse" lineSize="0"/>
+    <graph id="n11_kh8v" name="n11" xy="48,15" size="2,30" rotation="-8.1" type="rect" lineSize="0" fillColor="#ff000000"/>
+    <graph id="n12_kh8v" name="n12" xy="9,71" size="2,30" rotation="-96.9" type="rect" lineSize="0" fillColor="#ff000000"/>
+    <graph id="n13_kh8v" name="n13" xy="46,128" size="2,39" rotation="-169.7" type="rect" lineSize="0" fillColor="#ff000000"/>
+    <graph id="n14_kh8v" name="n14" xy="78,54" size="2,45" rotation="-117.7" type="rect" lineSize="0" fillColor="#ff000000"/>
+    <graph id="n15_kh8v" name="n15" xy="81,82" size="2,45" rotation="-53.3" type="rect" lineSize="0" fillColor="#ff000000"/>
+    <graph id="n16_kh8v" name="n16" xy="5,93" size="2,45" rotation="-35.7" type="rect" lineSize="0" fillColor="#ff000000"/>
+    <graph id="n17_kh8v" name="n17" xy="69,145" size="2,45" rotation="-107.7" type="rect" lineSize="0" fillColor="#ff000000"/>
+    <graph id="n18_kh8v" name="n18" xy="137,94" size="2,45" rotation="-179.1" type="rect" lineSize="0" fillColor="#ff000000"/>
+    <graph id="n19_kh8v" name="n19" xy="112,15" size="2,45" rotation="-254.8" type="rect" lineSize="0" fillColor="#ff000000"/>
+    <graph id="n5_kh8v" name="n5" xy="36,42" size="51,51" aspect="true" type="eclipse" lineSize="0" fillColor="#ff000000"/>
+    <graph id="n6_kh8v" name="n6" xy="112,102" size="38,41" skew="14.4,-28.3" rotation="-1.1" type="eclipse" lineSize="0" fillColor="#ff000000"/>
+    <graph id="n7_kh8v" name="n7" xy="100,6" size="39,39" aspect="true" skew="-20.7,22.7" type="eclipse" lineSize="0" fillColor="#ff000000"/>
+    <graph id="n8_kh8v" name="n8" xy="48,3" size="30,30" aspect="true" skew="36.9,-21.1" rotation="17.4" type="eclipse" lineSize="0" fillColor="#ff000000"/>
+    <graph id="n9_kh8v" name="n9" xy="16,122" size="39,40" aspect="true" skew="-36.9,14.5" rotation="-7.9" type="eclipse" lineSize="0" fillColor="#ff000000"/>
+    <graph id="n10_kh8v" name="n10" xy="0,51" size="11,44" skew="-1.6,0.6" type="eclipse" lineSize="0" fillColor="#ff000000"/>
+    <graph id="n20_kh8v" name="n20" xy="36,15" size="2,48" rotation="39" type="rect" lineSize="0" fillColor="#ff000000"/>
+  </displayList>
+</component>

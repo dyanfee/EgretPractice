@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="22,57" pivot="0.5,0.5" anchor="true">
+  <displayList>
+    <image id="n3_oguw" name="n3" src="ign23q" fileName="map/Physics/b_l_wheel-sheet0.png" xy="11,28" pivot="0.5,0.5" anchor="true"/>
+  </displayList>
+</component>

@@ -16,11 +16,6 @@ var CompressTool = (function () {
     CompressTool.decodeZigzag = function (n) {
         return (n >>> 1) ^ -(n & 1);
     };
-    /**
-     * 自字节表示长度
-     * @param zigzag zigzag数字
-     * @param 压缩后数组
-     */
     CompressTool.writeToBuffer1 = function (zigzag, buf, size) {
         var ret = 0;
         for (var i = 0; i < size; i++) {
@@ -36,6 +31,11 @@ var CompressTool = (function () {
         }
         return ret;
     };
+    /**
+     * 自字节表示长度
+     * @param zigzag zigzag数字
+     * @param 压缩后数组
+     */
     CompressTool.writeToBuffer = function (zigzag, buf, size) {
         var ret = 0;
         for (var i = 0; i < size; i++) {
@@ -146,7 +146,6 @@ var CompressTool = (function () {
         var ret = [];
         var list = this.stringToByte(str);
         var dataList = this.readFromBuffer1(list);
-        console.log(dataList);
         for (var i = 0; i < dataList.length; i++) {
             ret.push(this.decodeZigzag(dataList[i]));
         }

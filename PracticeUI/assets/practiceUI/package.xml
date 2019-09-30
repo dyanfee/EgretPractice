@@ -113,6 +113,18 @@
     <component id="velx3f" name="FollowDemo.xml" path="/map/FollowDemo/" exported="true"/>
     <component id="velx3h" name="Component4.xml" path="/map/FollowDemo/"/>
     <component id="velx3i" name="Pet.xml" path="/map/FollowDemo/" exported="true"/>
+    <component id="kh8v3j" name="Physics.xml" path="/map/Physics/" exported="true"/>
+    <image id="kh8v3k" name="rect.png" path="/map/Physics/"/>
+    <image id="kh8v3l" name="circle.png" path="/map/Physics/"/>
+    <component id="kh8v3m" name="phyBall.xml" path="/map/Physics/" exported="true"/>
+    <component id="kh8v3n" name="phyRect.xml" path="/map/Physics/" exported="true"/>
+    <component id="ign23o" name="Car.xml" path="/map/Physics/" exported="true"/>
+    <image id="ign23p" name="carbody-sheet0.png" path="/map/Physics/"/>
+    <image id="ign23q" name="b_l_wheel-sheet0.png" path="/map/Physics/"/>
+    <component id="ign23r" name="Wheel.xml" path="/map/Physics/" exported="true"/>
+    <component id="ivdy3s" name="RectCollision.xml" path="/map/Collision/" exported="true"/>
+    <component id="ivdy3t" name="Component5.xml" path="/map/Collision/"/>
+    <component id="ivdy3u" name="Component6.xml" path="/map/Collision/"/>
   </resources>
   <publish name="practiceUI" path="E:\VsCode\EgretProject\PracticeProject\resource\assets"/>
 </packageDescription>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="364,619" pivot="0.5,0.5" anchor="true">
+  <displayList>
+    <graph id="n6_h6m7" name="rect1" xy="0,0" size="364,619" type="rect"/>
+    <graph id="n10_ivdy" name="p1" xy="0,0" pivot="0.5,0.5" anchor="true" size="25,25" type="eclipse" lineSize="0" fillColor="#ff00ff00">
+      <relation target="n6_h6m7" sidePair="top-top,left-left"/>
+    </graph>
+    <graph id="n11_ivdy" name="p2" xy="364,0" pivot="0.5,0.5" anchor="true" size="25,25" type="eclipse" lineSize="0" fillColor="#ff00ff00">
+      <relation target="n6_h6m7" sidePair="top-top,left-left"/>
+    </graph>
+    <graph id="n12_ivdy" name="p3" xy="0,619" pivot="0.5,0.5" anchor="true" size="25,25" type="eclipse" lineSize="0" fillColor="#ff00ff00">
+      <relation target="n6_h6m7" sidePair="top-top,left-left"/>
+    </graph>
+    <graph id="n13_ivdy" name="p4" xy="364,619" pivot="0.5,0.5" anchor="true" size="25,25" type="eclipse" lineSize="0" fillColor="#ff00ff00">
+      <relation target="n6_h6m7" sidePair="top-top,left-left"/>
+    </graph>
+  </displayList>
+</component>
